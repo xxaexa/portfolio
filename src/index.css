@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Sniglet&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-main-font;
+}
+
+.header-text {
+  @apply text-xl md:text-2xl font-bold;
+}
+
+.medium-text {
+  @apply text-lg md:text-xl font-medium;
+}
+
+.small-text {
+  @apply text-sm md:text-lg font-medium;
+}
+
+.bg-section {
+  @apply hover:bg-gray-300 bg-gray-200 p-2 rounded-lg;
+}
