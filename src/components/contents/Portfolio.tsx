@@ -3,7 +3,7 @@ interface PortfolioProps {
   description: string;
   tags: JSX.Element[];
   live: string;
-  code: string;
+  code?: string;
   dark: boolean;
 }
 
@@ -12,7 +12,6 @@ const Portfolio = ({
   description,
   tags,
   live,
-  code,
   dark,
 }: PortfolioProps) => {
   return (
