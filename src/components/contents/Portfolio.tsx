@@ -34,19 +34,8 @@ const Portfolio = ({
               target="_blank"
               className="w-fit rounded-lg  bg-indigo-500 text-center px-3 py-1 text-white hover:bg-indigo-100 hover:text-black tracking-widest duration-500 ease-in-out my-4 small-text"
             >
-              WEB
+              VIEW
             </a>
-            {code === "" ? (
-              <></>
-            ) : (
-              <a
-                href={code}
-                target="_blank"
-                className="w-fit rounded-lg  bg-indigo-500 text-center px-3 py-1 text-white hover:bg-indigo-100 hover:text-black tracking-widest duration-500 ease-in-out my-4 small-text"
-              >
-                ANDROID
-              </a>
-            )}
           </div>
         </div>
 
