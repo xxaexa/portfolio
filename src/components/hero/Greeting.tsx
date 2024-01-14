@@ -1,6 +1,6 @@
 const Greeting = () => {
   return (
-    <div className="w-full grid md:my-16 h-screen md:h-[100px]">
+    <div className="w-full grid md:py-16 h-screen md:h-[100px]">
       <div className="flex justify-center items-center">
         <div className="text-center mx-auto header-text">
           <h2 className="my-6">
