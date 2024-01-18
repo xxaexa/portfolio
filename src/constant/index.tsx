@@ -31,7 +31,8 @@ export const portfolios = [
 
     live: "https://genshindb.xxaexa.my.id/",
     code: "https://genshin-db.xxaexa.my.id/",
-    android: "https://expo.dev/artifacts/eas/gXBesDDv3efUeT73t8EG65.apk",
+    android:
+      "https://drive.google.com/file/d/15AAKpLqxZPcWgXT1nELM9Dg8CMAUpMcX/view?usp=drive_link",
     description:
       "Website to show artifact,character and weapon in genshin impact",
     tags: [
@@ -47,6 +48,8 @@ export const portfolios = [
     title: "Topup",
     live: "https://topup.xxaexa.my.id/",
     code: "",
+    android:
+      "https://drive.google.com/file/d/1OeJ3VIg4XZLsiH5LkIIlQ2YlnVXlqDep/view?usp=drive_link",
     description:
       "Website for Topup online game and integration with payment gateway",
     tags: [
