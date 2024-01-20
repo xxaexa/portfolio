@@ -29,8 +29,7 @@ export const portfolios = [
   {
     title: "Genshin DB",
 
-    live: "https://genshindb.xxaexa.my.id/",
-    code: "https://genshin-db.xxaexa.my.id/",
+    live: "https://genshin-db.xxaexa.my.id/",
     android:
       "https://drive.google.com/file/d/15AAKpLqxZPcWgXT1nELM9Dg8CMAUpMcX/view?usp=drive_link",
     description:
