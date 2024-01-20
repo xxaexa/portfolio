@@ -57,6 +57,8 @@ export const portfolios = [
       <SiRedux />,
       <SiTailwindcss />,
       <SiExpress />,
+      <SiMongodb />,
+      <SiFirebase />,
     ],
   },
 
@@ -67,6 +69,7 @@ export const portfolios = [
     description:
       "build e-commerce web for vapestore and have a dashboard admin and user",
     tags: [
+      <SiTypescript />,
       <SiReact />,
       <SiRedux />,
       <SiTailwindcss />,
