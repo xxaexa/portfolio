@@ -30,8 +30,7 @@ export const portfolios = [
     title: "Genshin DB",
 
     live: "https://genshin-db.xxaexa.my.id/",
-    android:
-      "https://drive.google.com/file/d/15AAKpLqxZPcWgXT1nELM9Dg8CMAUpMcX/view?usp=drive_link",
+    android: "https://expo.dev/artifacts/eas/hgua3z82uxHCQ6Zot7x9wy.apk",
     description:
       "Website to show artifact,character and weapon in genshin impact",
     tags: [
