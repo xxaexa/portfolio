@@ -12,6 +12,7 @@ import {
   SiNodedotjs,
   SiMongodb,
   SiFirebase,
+  SiNextdotjs,
 } from "react-icons/si";
 
 export const skills = [
@@ -32,7 +33,7 @@ export const portfolios = [
     live: "https://genshin-db.xxaexa.my.id/",
     android: "https://expo.dev/artifacts/eas/hgua3z82uxHCQ6Zot7x9wy.apk",
     description:
-      "Website to show artifact,character and weapon in genshin impact",
+      "build website to show artifact,character and weapon in genshin impact",
     tags: [
       <SiTypescript />,
       <SiReact />,
@@ -49,7 +50,7 @@ export const portfolios = [
     android:
       "https://drive.google.com/file/d/1OeJ3VIg4XZLsiH5LkIIlQ2YlnVXlqDep/view?usp=drive_link",
     description:
-      "Website for Topup online game and integration with payment gateway",
+      "build website for Topup online game and integration with payment gateway",
     tags: [
       <SiTypescript />,
       <SiReact />,
@@ -75,6 +76,21 @@ export const portfolios = [
       <SiExpress />,
       <SiMongodb />,
       <SiFirebase />,
+    ],
+  },
+
+  {
+    title: "AIO",
+    live: "https://aio.xxaexa.my.id/",
+    code: "",
+    description:
+      "build a website to demonstrate slicing capabilities and create a responsive website",
+    tags: [
+      <SiTypescript />,
+      <SiReact />,
+      <SiRedux />,
+      <SiTailwindcss />,
+      <SiNextdotjs />,
     ],
   },
 ];
