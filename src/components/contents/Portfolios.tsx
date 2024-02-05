@@ -13,7 +13,7 @@ const Portfolios = (props: PortfoliosProps) => {
       <h2 className="mb-4 lg:mt-0 text-center medium-text">PORTFOLIO</h2>
       <div className="grid grid-cols-1 md:grid-cols-3">
         {portfolios.map((portfolio, index) => (
-          <div key={index}>
+          <div key={index} className="my-4">
             <Portfolio {...portfolio} dark={props.dark} />
           </div>
         ))}
