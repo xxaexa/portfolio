@@ -98,19 +98,19 @@ export const portfolios = [
 
 export const social = [
   {
-    id: 1,
+    id: 0,
     title: "Instagram",
     icon: <FaInstagramSquare />,
     link: "https://www.instagram.com/andreekaaa1/",
   },
   {
-    id: 2,
+    id: 1,
     title: "Linkedin",
     icon: <FaLinkedin />,
     link: "https://www.linkedin.com/in/andre-eka-94009b279/",
   },
   {
-    id: 3,
+    id: 2,
     title: "Github",
     icon: <FaGithubSquare />,
     link: "https://github.com/xxaexa",

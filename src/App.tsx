@@ -15,7 +15,7 @@ import { skills, portfolios, social, works } from "./constant";
 const App = () => {
   return (
     <MainWrapper>
-      {/* Greeting */}
+      {/* Greeting x */}
       <ToggleButton />
 
       {/* Skills */}
