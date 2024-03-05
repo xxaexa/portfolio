@@ -64,7 +64,7 @@ export const portfolios = [
     title: "Topup",
     live: "https://topup.xxaexa.my.id/",
     fe: "https://github.com/xxaexa/topup-fe",
-    be: "https://github.com/xxaexa?tab=repositories",
+    be: "https://github.com/xxaexa/topup-fe",
     android:
       "https://drive.google.com/file/d/1OeJ3VIg4XZLsiH5LkIIlQ2YlnVXlqDep/view?usp=drive_link",
     description: "build website for Topup online game",
@@ -82,7 +82,7 @@ export const portfolios = [
     title: "Vape Store",
     live: "https://vape-store.xxaexa.my.id/",
     fe: "https://github.com/xxaexa/vapeStore-fe",
-    be: "https://github.com/xxaexa?tab=repositories",
+    be: "https://github.com/xxaexa/vapeStore-fe",
     description: "build e-commerce web for vapestore",
     tags: [
       <SiTypescript />,

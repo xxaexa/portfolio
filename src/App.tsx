@@ -58,9 +58,9 @@ const App = () => {
               <SmallText text={portfolio.description} />
 
               <GridWrapper style="grid-cols-3 gap-5 my-4">
-                <LinkButton text="LIVE" link="" />
-                <LinkButton text="FE" link="" />
-                <LinkButton text="BE" link="" />
+                <LinkButton text="LIVE" link={portfolio.live} />
+                <LinkButton text="FE" link={portfolio.fe} />
+                <LinkButton text="BE" link={portfolio.be} />
               </GridWrapper>
 
               <GridWrapper style="grid-cols-8 gap-5 my-4">
