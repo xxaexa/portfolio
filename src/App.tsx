@@ -22,7 +22,7 @@ const App = () => {
       <ContentWrapper>
         <LargeText text="SKILLS" />
         <BoxWrapper>
-          <GridWrapper style="grid-cols-2 md:grid-cols-4">
+          <GridWrapper style="grid-cols-2 md:grid-cols-5">
             {skills.map((skill) => (
               <IconText key={skill.name} text={skill.name} icon={skill.icon} />
             ))}
@@ -78,7 +78,7 @@ const App = () => {
       {/* Footer */}
       <ContentWrapper>
         <LargeText text="STAY CONNECTED" />
-        <GridWrapper style="grid-cols-1 md:grid-cols-3 gap-12 w-fit mx-auto place-content-center">
+        <GridWrapper style="grid-cols-3 gap-12 w-fit mx-auto place-content-center">
           {social.map((s) => (
             <IconButton key={s.id} text={s.title} icon={s.icon} link={s.link} />
           ))}

@@ -12,25 +12,19 @@ import {
   SiNodedotjs,
   SiMongodb,
   SiFirebase,
-  SiNextdotjs,
-  SiVuedotjs,
-  SiBootstrap,
-  SiJquery,
+  SiGo,
+  SiPostgresql
 } from "react-icons/si";
 
 export const skills = [
   { icon: <SiTypescript />, name: "TypeScript" },
   { icon: <SiJavascript />, name: "JavaScript" },
-  { icon: <SiJquery />, name: "JQuery" },
   { icon: <SiReact />, name: "React" },
-  { icon: <SiNextdotjs />, name: "Next" },
-  { icon: <SiVuedotjs />, name: "Vue" },
   { icon: <SiRedux />, name: "Redux" },
-
   { icon: <SiTailwindcss />, name: "TailwindCSS" },
-  { icon: <SiBootstrap />, name: "Bootstrap" },
   { icon: <SiExpress />, name: "Express" },
-
+  { icon: <SiGo />, name: "Go" },
+  { icon: <SiPostgresql />, name: "Postgresql" },
   { icon: <SiMongodb />, name: "MongoDB" },
   { icon: <SiNodedotjs />, name: "Node" },
 ];
@@ -70,7 +64,6 @@ export const portfolios = [
     description: "build website for Topup online game",
     tags: [
       <SiTypescript />,
-      <SiVuedotjs />,
       <SiTailwindcss />,
       <SiExpress />,
       <SiMongodb />,
